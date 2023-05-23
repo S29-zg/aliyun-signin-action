@@ -3,7 +3,7 @@ name: Aliyun Signin
 on:
   schedule:
    # 定时完成任务的时间
-    - cron: '00 02 * * *'
+    - cron: '01 16 * * *'
   workflow_dispatch:
 jobs:
   signin:
